@@ -36,9 +36,9 @@ if __name__ == '__main__':
     ngrok.set_auth_token('2d8ZVeHli6ogXhNYDZkBOlRUkzO_7gxKeqj7trWhziRDHtHmR')
 
     # Establish ngrok tunnel
-    public_url = ngrok.connect(port=5000)
+    public_url = ngrok.connect(port=9800)
 
     print(public_url,)
 
     # Run the Flask app
-    app.run(port=9800)
+    app.run()
