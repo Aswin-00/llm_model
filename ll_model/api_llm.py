@@ -34,4 +34,4 @@ if __name__ == '__main__':
     # Authenticate ngrok (replace 'YOUR_AUTHTOKEN' with your actual ngrok authtoken)
 
     # Run the Flask app
-    app.run()
+    app.run(port=9800)
